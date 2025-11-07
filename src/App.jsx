@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename='/ReactConceptsSDE2'>
     <Routes>
       <Route path='/' element={<Home  />}/>
       <Route path="/lazyLoadingDemo" element={<LazyLoading  />} />
