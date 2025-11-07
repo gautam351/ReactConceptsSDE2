@@ -7,8 +7,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read      # allow reading the repo
-  pages: write        # allow writing to Pages branch
+  contents: write #  CHANGE THIS from 'read' to 'write'
+  pages: write    # allow writing to Pages branch
+  id-token: write # Best practice to include for OIDC compatibility
 
 jobs:
   deploy:
