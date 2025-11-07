@@ -1,5 +1,5 @@
 {
-  "name": "reactconcepts",
+  "name": "ReactConceptsSDE2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +14,7 @@
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.9.5"
   },
+  "homepage": "https://gautam351.github.io/ReactConceptsSDE2/",
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.16",
