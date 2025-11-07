@@ -1,0 +1,1 @@
+import{r as t,j as e}from"./index-Cez4oyCu.js";const a=()=>{const r=t.useRef("/ReactConceptsSDE2/PublishMedium.jpeg");return e.jsx(e.Fragment,{children:e.jsx("img",{src:r.current,alt:"Lazy Loaded"})})};export{a as default};
