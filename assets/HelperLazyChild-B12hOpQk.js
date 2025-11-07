@@ -1,0 +1,1 @@
+import{r as s,j as e}from"./index-BBi-StY6.js";const a=()=>{const r=s.useRef("../../../public/PublishMedium.jpeg");return e.jsx(e.Fragment,{children:e.jsx("img",{src:r.current,alt:"Lazy Loaded"})})};export{a as default};
