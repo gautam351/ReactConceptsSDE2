@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 
 const HelperLazyChild=()=>{
-    const imgSource = useRef("../../../public/PublishMedium.jpeg");
+    const imgSource = useRef(`${import.meta.env.BASE_URL}PublishMedium.jpeg`);
     
 
     return (
