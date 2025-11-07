@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom' 
+import {BrowserRouter as Router, Routes, Route,HashRouter} from 'react-router-dom' 
 import './App.css'
 import Home from './components/Home'
 import LazyLoading from './components/LazyLoading'
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <Router basename='/ReactConceptsSDE2'>
+    <HashRouter >
     <Routes>
       <Route path='/' element={<Home  />}/>
       <Route path="/lazyLoadingDemo" element={<LazyLoading  />} />
@@ -16,7 +16,7 @@ function App() {
 
     </Routes>
 
-    </Router>
+    </HashRouter>
     </>
   )
 }
